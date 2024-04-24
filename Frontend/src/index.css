@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navul li,.homeholder button,#closeBtn span{
+    transition: all 500ms ease-in-out;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+}
+.navul li:hover,.homeholder button:hover,#closeBtn span:hover{
+    transform: scale(2px);
+    -webkit-transform: scale(2px);
+    -moz-transform: scale(2px);
+    -ms-transform: scale(2px);
+    -o-transform: scale(2px);
+}
